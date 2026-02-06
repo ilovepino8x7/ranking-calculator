@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Rankings Calculator Page")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+ba84adfcb72a15e8441956c143c40cd8cb948a46")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+78bff46d5b4d88c465e7cabac48ab4bc01a82150")]
 [assembly: System.Reflection.AssemblyProductAttribute("Rankings Calculator Page")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Rankings Calculator Page")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,97 @@
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/appsettings.Development.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/appsettings.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.staticwebassets.runtime.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.staticwebassets.endpoints.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.deps.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.runtimeconfig.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.dll
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/bin/Debug/net9.0/Rankings Calculator Page.pdb
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.GeneratedMSBuildEditorConfig.editorconfig
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.AssemblyInfoInputs.cache
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.AssemblyInfo.cs
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.csproj.CoreCompileInputs.cache
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.MvcApplicationPartsAssemblyInfo.cache
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.RazorAssemblyInfo.cache
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.RazorAssemblyInfo.cs
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/bundle/Rankings Calculator Page.styles.css
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/projectbundle/Rankings Calculator Page.bundle.scp.css
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/y2rk5gt0bn-b9sayid5wm.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/9lxnle79tl-61n19gt1b8.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/iijsxxpac7-xtxxf3hu2r.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/1yr89bvol4-bqjiyaj88i.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/mrs2ta7uf5-c2jlpeoesf.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/4q4fx0tw3u-erw9l3u2r3.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/q3nk04ezlh-aexeepp0ev.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/7fvowlzrnt-d7shbmvgxk.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/vyy19boeci-ausgxo2sd3.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/hc92s66xp0-k8d9w2qqmf.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/569hch6vtj-cosvhxvwiu.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/7958piz9gu-ub07r2b239.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/92h46nz0p1-fvhpjtyr6v.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ik8t4jtd2z-b7pk76d08c.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/s4ndpmwg4e-fsbi9cje9m.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/axztou8aie-rzd6atqjts.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/flgxa1ius8-ee0r1s7dh0.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/2ekxxgtjup-dxx9fxp4il.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/spqfdduvc6-jd9uben2k1.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/87kkrgd5nx-khv3u5hwcm.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/dg6iqjtn2e-r4e9w2rdcm.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/7xloti3kb4-lcd1t2u6c8.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/iyy839isje-c2oey78nd0.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/t5wyh71sja-tdbxkamptv.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/zesyiamrsz-j5mq2jizvt.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/5kqhmrl0nz-06098lyss8.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/8e7ddv9ocz-nvvlpmu67g.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/u50iegazdh-s35ty4nyc5.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/0o3zr9pgvy-pj5nd1wqec.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/j7t23i3nq6-46ein0sx1k.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/t3687but15-v0zj4ognzu.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/q3lwbhqt1o-37tfw0ft22.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/zdh5e4dctw-hrwsygsryq.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/jibmwmembi-pk9g2wxc8p.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/4i7aong50h-ft3s53vfgj.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/62bkx6k8sm-6cfz1n2cew.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/dfwgg7kd0v-6pdc2jztkx.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ncexekbz7z-493y06b0oq.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/bx3chup1tx-iovd86k7lj.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/5jy5900vzh-vr1egmr9el.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/2f86755sks-kbrnm935zg.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/70vr5wmx2j-jj8uyg4cgr.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/1rkofulqsi-y7v9cxd14o.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/85thekinnk-notf2xhcfb.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/hnv5ks7mhv-h1s4sie4z3.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/fghkefm8bs-63fj8s7r0e.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ph02jft8bz-0j3bgjxly4.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/0qx52ey1sp-47otxtyo56.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/z66ie7st02-4v8eqarkd7.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/r1rpraxc0b-356vix0kms.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/c3bz702h6p-83jwlth58m.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/quqygtr9re-mrlpezrjn3.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/50jh064ux8-lzl9nlhx6b.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/btmvrhwr05-ag7o75518u.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/qwknzrkm5p-x0q3zqp4vz.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/s0e4sabpv2-0i3buxo5is.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/3cogn74l1u-o1o13a6vjx.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/iw7k2dp5pp-ttgo8qnofa.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/asksu5606r-2z0ns9nrw6.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/qfjobru7q7-muycvpuwrr.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/pyrm9nnxid-87fc7y1x7t.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/hb03rgxjs4-mlv21k5csn.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/lp5wu3ipwj-wrdd7mk1o9.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/8oy7q8t6jm-wrdd7mk1o9.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets.build.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets.development.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets.build.endpoints.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets/msbuild.Rankings Calculator Page.Microsoft.AspNetCore.StaticWebAssets.props
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets/msbuild.Rankings Calculator Page.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets/msbuild.build.Rankings Calculator Page.props
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets/msbuild.buildMultiTargeting.Rankings Calculator Page.props
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets/msbuild.buildTransitive.Rankings Calculator Page.props
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/staticwebassets.pack.json
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.dll
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/refint/Rankings Calculator Page.dll
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.pdb
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.genruntimeconfig.cache
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/ref/Rankings Calculator Page.dll
