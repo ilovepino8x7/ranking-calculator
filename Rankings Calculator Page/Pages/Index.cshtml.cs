@@ -7,15 +7,17 @@ public class IndexModel : PageModel
 {
     private readonly ILogger<IndexModel> _logger;
     [BindProperty]
-    public int mePoints {get; set;}
+    public int p1Points {get; set;}
     [BindProperty]
-    public int themPoints {get; set;}
+    public int p2Points {get; set;}
     [BindProperty]
     public double weight {get; set;}
     [BindProperty]
     public bool p1win {get; set;}
     public bool p1Expected;
     public int band;
+    public int newp1;
+    public int newp2;
     public IndexModel(ILogger<IndexModel> logger)
     {
         _logger = logger;
@@ -40,7 +42,20 @@ public class IndexModel : PageModel
         {
             diff = p2Points - p1Points;
         } 
-        // complex logic :(
+        bool expected;
+        if (win1 && p1Expected)
+        {
+            expected = true;
+        }
+        else if (!win1 && !p1Expected)
+        {
+            expected = true;
+        }
+        else
+        {
+            expected = false;
+        }
+        // hard logic for me :(
 
         // work out band
         if (diff <= 24)
@@ -79,5 +94,173 @@ public class IndexModel : PageModel
         {
             band = 9;
         }
+
+        /* if win1 is true, then player 1 has won else player two has won.
+            if expected is true, the result is expected
+        */
+
+        //// work out player one's gain
+        
+        int p1Gain;
+
+        // expected wins for player 1
+        if (expected && win1)
+        {
+            if (band == 1)
+            {
+                p1Gain = 8;
+            }
+            else if (band == 2)
+            {
+                p1Gain = 7;
+            }
+            else if (band == 3)
+            {
+                p1Gain = 6;
+            }
+            else if (band == 4)
+            {
+                p1Gain = 5;
+            }
+            else if (band == 5)
+            {
+                p1Gain = 4;
+            }
+            else if (band == 6)
+            {
+                p1Gain = 3;
+            }
+            else if (band == 7)
+            {
+                p1Gain = 2;
+            }
+            else
+            {
+                p1Gain = 1;
+            }
+        }
+        // unexpected wins for player 1
+        else if (!expected && win1)
+        {
+            if (band == 1)
+            {
+                p1Gain = 8;
+            }
+            else if (band == 2)
+            {
+                p1Gain = 9;
+            }
+            else if (band == 3)
+            {
+                p1Gain = 11;
+            }
+            else if (band == 4)
+            {
+                p1Gain = 14;
+            }
+            else if (band == 5)
+            {
+                p1Gain = 17;
+            }
+            else if (band == 6)
+            {
+                p1Gain = 22;
+            }
+            else if (band == 7)
+            {
+                p1Gain = 30;
+            }
+            else if (band == 8)
+            {
+                p1Gain = 40;
+            }
+            else
+            {
+                p1Gain = 50;
+            }
+        }
+        // expected losses for player 1
+        else if (expected && !win1)
+        {
+            if (band == 1)
+            {
+                p1Gain = -4;
+            }
+            else if (band == 2)
+            {
+                p1Gain = -4;
+            }
+            else if (band == 3)
+            {
+                p1Gain = -3;
+            }
+            else if (band == 4)
+            {
+                p1Gain = -3;
+            }
+            else if (band == 5)
+            {
+                p1Gain = -2;
+            }
+            else if (band == 6)
+            {
+                p1Gain = -2;
+            }
+            else if (band == 7)
+            {
+                p1Gain = -1;
+            }
+            else
+            {
+                p1Gain = 0;
+            }
+
+        }
+        // unexpected losses for player 1
+        else if (!expected && !win1)
+        {
+            if (band == 1)
+            {
+                p1Gain = -4;
+            }
+            else if (band == 2)
+            {
+                p1Gain = -4;
+            }
+            else if (band == 3)
+            {
+                p1Gain = -6;
+            }
+            else if (band == 4)
+            {
+                p1Gain = -8;
+            }
+            else if (band == 5)
+            {
+                p1Gain = -10;
+            }
+            else if (band == 6)
+            {
+                p1Gain = -12;
+            }
+            else if (band == 7)
+            {
+                p1Gain = -16;
+            }
+            else if (band == 8)
+            {
+                p1Gain = -20;
+            }
+            else
+            {
+                p1Gain = -26;
+            }
+        }
+
+
+        //// multiply by weight
+
+        //// output points
+        
     }
 }
