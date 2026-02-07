@@ -101,8 +101,8 @@ public class IndexModel : PageModel
 
         //// work out player one's gain
         
-        int p1Gain;
-        int p2Gain;
+        int p1Gain = 0;
+        int p2Gain = 0;
         // expected wins for player 1
         if (expected && win1)
         {
@@ -415,8 +415,12 @@ public class IndexModel : PageModel
             }
         }
         //// multiply by weight
+        p1Gain = (int)Math.Round(p1Gain * weight);
+        p2Gain = (int)Math.Round(p2Gain * weight);
 
         //// output points
+        newp1 = p1Points + p1Gain;
+        newp2 = p2Points + p2Gain;
         
     }
 }
