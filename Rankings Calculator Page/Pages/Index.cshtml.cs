@@ -102,7 +102,7 @@ public class IndexModel : PageModel
         //// work out player one's gain
         
         int p1Gain;
-
+        int p2Gain;
         // expected wins for player 1
         if (expected && win1)
         {
@@ -257,7 +257,163 @@ public class IndexModel : PageModel
             }
         }
 
+        // now same for player two!
 
+        // expected win
+        if (expected && !win1)
+        {
+            if (band == 1)
+            {
+                p2Gain = 8;
+            }
+            else if (band == 2)
+            {
+                p2Gain = 7;
+            }
+            else if (band == 3)
+            {
+                p2Gain = 6;
+            }
+            else if (band == 4)
+            {
+                p2Gain = 5;
+            }
+            else if (band == 5)
+            {
+                p2Gain = 4;
+            }
+            else if (band == 6)
+            {
+                p2Gain = 3;
+            }
+            else if (band == 7)
+            {
+                p2Gain = 2;
+            }
+            else
+            {
+                p2Gain = 1;
+            }
+        }
+
+        // un-expected WIn
+
+        else if (!expected && !win1)
+        {
+            if (band == 1)
+            {
+                p2Gain = 8;
+            }
+            else if (band == 2)
+            {
+                p2Gain = 9;
+            }
+            else if (band == 3)
+            {
+                p2Gain = 11;
+            }
+            else if (band == 4)
+            {
+                p2Gain = 14;
+            }
+            else if (band == 5)
+            {
+                p2Gain = 17;
+            }
+            else if (band == 6)
+            {
+                p2Gain = 22;
+            }
+            else if (band == 7)
+            {
+                p2Gain = 30;
+            }
+            else if (band == 8)
+            {
+                p2Gain = 40;
+            }
+            else
+            {
+                p2Gain = 50;
+            }
+        }
+
+        // expected loss
+        else if (expected && win1)
+        {
+            if (band == 1)
+            {
+                p2Gain = -4;
+            }
+            else if (band == 2)
+            {
+                p2Gain = -4;
+            }
+            else if (band == 3)
+            {
+                p2Gain = -3;
+            }
+            else if (band == 4)
+            {
+                p2Gain = -3;
+            }
+            else if (band == 5)
+            {
+                p2Gain = -2;
+            }
+            else if (band == 6)
+            {
+                p2Gain = -2;
+            }
+            else if (band == 7)
+            {
+                p2Gain = -1;
+            }
+            else
+            {
+                p2Gain = 0;
+            }
+        }
+        // un-Expected LOSS
+        else if (!expected && win1)
+        {
+            if (band == 1)
+            {
+                p2Gain = -4;
+            }
+            else if (band == 2)
+            {
+                p2Gain = -4;
+            }
+            else if (band == 3)
+            {
+                p2Gain = -6;
+            }
+            else if (band == 4)
+            {
+                p2Gain = -8;
+            }
+            else if (band == 5)
+            {
+                p2Gain = -10;
+            }
+            else if (band == 6)
+            {
+                p2Gain = -12;
+            }
+            else if (band == 7)
+            {
+                p2Gain = -16;
+            }
+            else if (band == 8)
+            {
+                p2Gain = -20;
+            }
+            else
+            {
+                p2Gain = -26;
+            }
+        }
         //// multiply by weight
 
         //// output points
