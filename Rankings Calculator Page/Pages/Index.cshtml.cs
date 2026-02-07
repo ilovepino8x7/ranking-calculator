@@ -5,30 +5,36 @@ namespace Rankings_Calculator_Page.Pages;
 
 public class IndexModel : PageModel
 {
+    [BindProperty]
+    public int p1Points { get; set; }
+    [BindProperty]
+    public int p2Points { get; set;}
+    [BindProperty]
+    public double weight { get; set; }
+    [BindProperty]
+    public bool win1 { get; set; }
+    public int newp1 { get; set; }
+    public int newp2 { get; set; }
+
+
     private readonly ILogger<IndexModel> _logger;
-    [BindProperty]
-    public int p1Points {get; set;}
-    [BindProperty]
-    public int p2Points {get; set;}
-    [BindProperty]
-    public double weight {get; set;}
-    [BindProperty]
-    public bool p1win {get; set;}
-    public bool p1Expected;
-    public int band;
-    public int newp1;
-    public int newp2;
+    
+
     public IndexModel(ILogger<IndexModel> logger)
     {
         _logger = logger;
     }
 
-    public void OnGet()
+    public void OnPost()
     {
-
+        var results = CalculateNewPoints(p1Points,p2Points, weight, win1);
+        newp1 = results.n1;
+        newp2 = results.n2;
     }
-    public void CalculateNewPoints(int p1Points, int p2Points, double weight, bool win1)
+    public (int n1, int n2) CalculateNewPoints(int p1Points, int p2Points, double weight, bool win1)
     {
+        int band;
+        bool p1Expected;
         if (p1Points >= p2Points)
         {
             p1Expected = true;
@@ -419,8 +425,7 @@ public class IndexModel : PageModel
         p2Gain = (int)Math.Round(p2Gain * weight);
 
         //// output points
-        newp1 = p1Points + p1Gain;
-        newp2 = p2Points + p2Gain;
+        return(p1Points + p1Gain, p2Points + p2Gain);
         
     }
 }
