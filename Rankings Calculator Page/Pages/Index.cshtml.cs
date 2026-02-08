@@ -421,8 +421,8 @@ public class IndexModel : PageModel
             }
         }
         //// multiply by weight
-        p1Gain = (int)Math.Round(p1Gain * weight);
-        p2Gain = (int)Math.Round(p2Gain * weight);
+        p1Gain = (int)Math.Round(p1Gain * weight, MidpointRounding.AwayFromZero);
+        p2Gain = (int)Math.Round(p2Gain * weight, MidpointRounding.AwayFromZero);
 
         //// output points
         return(p1Points + p1Gain, p2Points + p2Gain);

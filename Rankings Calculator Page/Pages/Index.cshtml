@@ -3,8 +3,29 @@
 @{
     ViewData["Title"] = "Home page";
 }
+@{
+    Layout = null;
+}
 
-<div class="text-center">
-    <h1 class="display-4">Table Tennis England Rankings Calculator</h1>
-    <p>Learn about <a href="https://learn.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+<html>
+    <head>
+        <title>Table Tennis England Rankings Calculator</title>
+    </head>
+    <body>
+        <h1>Table Tennis Ranking Calculator</h1>
+        <form method="POST">
+        <input asp-for="p1Points" Player One's Points/>
+        <input asp-for="p2Points" Player Two's Points/>
+        <input asp-for="weight" Weight />
+        <input type="checkbox" asp-for="win1" Did Player One Win?/>
+        <input type="submit" />
+        </form>
+        @if (Model.newp1 != 0 || Model.newp2 != 0)
+        {
+            <p>Player One New Points: @Model.newp1</p>
+            <p>Player Two New Points: @Model.newp2</p>
+        }
+
+    </body>
+</html>
+
