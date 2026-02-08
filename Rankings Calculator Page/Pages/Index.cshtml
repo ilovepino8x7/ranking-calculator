@@ -10,21 +10,15 @@
 <html>
     <head>
         <title>Table Tennis England Rankings Calculator</title>
+        <link rel="stylesheet" href="/css/styles.css" />
     </head>
     <body>
+    <div class="container">
+        <header>
         <h1>Table Tennis Ranking Calculator</h1>
-        <form method="POST">
-        <input asp-for="p1Points" Player One's Points/>
-        <input asp-for="p2Points" Player Two's Points/>
-        <input asp-for="weight" Weight />
-        <input type="checkbox" asp-for="win1" Did Player One Win?/>
-        <input type="submit" />
-        </form>
-        @if (Model.newp1 != 0 || Model.newp2 != 0)
-        {
-            <p>Player One New Points: @Model.newp1</p>
-            <p>Player Two New Points: @Model.newp2</p>
-        }
+        </header>
+        <hr />
+    </div>
 
     </body>
 </html>
