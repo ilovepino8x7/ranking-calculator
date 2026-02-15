@@ -17,8 +17,6 @@
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/Pages/Shared/_Layout.cshtml.rz.scp.css
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/bundle/Rankings Calculator Page.styles.css
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/projectbundle/Rankings Calculator Page.bundle.scp.css
-/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/xxsuepp42o-dhdke3gtat.gz
-/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/9lxnle79tl-61n19gt1b8.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/iijsxxpac7-xtxxf3hu2r.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/1yr89bvol4-bqjiyaj88i.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/mrs2ta7uf5-c2jlpeoesf.gz
@@ -95,3 +93,5 @@
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.pdb
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/Rankings Calculator Page.genruntimeconfig.cache
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/ref/Rankings Calculator Page.dll
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/9lxnle79tl-pq8osalt7v.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/xxsuepp42o-awrlklm7lr.gz

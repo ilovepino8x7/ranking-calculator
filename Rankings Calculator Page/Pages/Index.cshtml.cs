@@ -6,13 +6,13 @@ namespace Rankings_Calculator_Page.Pages;
 public class IndexModel : PageModel
 {
     [BindProperty]
-    public int p1Points { get; set; }
+    public int p1Points { get; set; } = 100;
     [BindProperty]
-    public int p2Points { get; set;}
+    public int p2Points { get; set;} = 100;
     [BindProperty]
-    public double weight { get; set; }
+    public double weight { get; set; } = 1;
     [BindProperty]
-    public bool win1 { get; set; }
+    public bool win1 { get; set; } = true;
     public int newp1 { get; set; }
     public int newp2 { get; set; }
 
