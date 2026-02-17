@@ -24,7 +24,7 @@
         <div class="half" id="inp">
         <h3>Results</h3>
         <hr class="sep">
-            <form method="POST">
+            <form method="POST" id="calcForm">
                 <h4>Points</h4>
                 
                 <label  for="p1Points">Player One's Points</label>
@@ -58,13 +58,18 @@
                     <option value="2.75">2.75x</option>
                     <option value="3">3x</option>
                 </select>
-
-                <hr class="sep">
-                <input style="display:block; margin: 0 auto; text-align: center;"type="submit" />
             </form>
         </div>
         <div class="half" id="out">
-        
+            <h3>
+                New Points
+            </h3>
+            <hr class="sep">
+                <h4>Player One</h4>
+                <h5 id="p1-points-out">@Model.newp1</h5>
+                <hr />
+                <h4>Player Two</h4>
+                <h5 id="p2-points-out">@Model.newp2</h5>
         </div>
     </div>
     </div>
@@ -84,6 +89,27 @@
             labelP2.textContent = this.value;
         });
     </script>
+    <script>
+document.getElementById("calcForm")
+    .addEventListener("input", function () {
+
+        fetch("", {
+            method: "POST",
+            body: new FormData(this)
+        })
+        .then(response => response.text())
+        .then(html => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+
+    const newOutput = doc.querySelector("#out");
+    document.querySelector("#out").innerHTML = newOutput.innerHTML;
+});
+
+
+});
+</script>
+
     </body>
 </html>
 

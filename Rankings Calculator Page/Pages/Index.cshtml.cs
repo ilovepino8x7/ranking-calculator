@@ -31,6 +31,12 @@ public class IndexModel : PageModel
         newp1 = results.n1;
         newp2 = results.n2;
     }
+    public void OnGet()
+    {
+        var results = CalculateNewPoints(p1Points,p2Points, weight, win1);
+        newp1 = results.n1;
+        newp2 = results.n2;
+    }
     public (int n1, int n2) CalculateNewPoints(int p1Points, int p2Points, double weight, bool win1)
     {
         int band;
