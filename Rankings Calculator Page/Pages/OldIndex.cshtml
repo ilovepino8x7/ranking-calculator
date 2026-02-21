@@ -1,0 +1,115 @@
+﻿@page
+@model OldIndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+@{
+    Layout = null;
+}
+
+<html>
+    <head>
+        <title>Table Tennis England Rankings Calculator</title>
+        <link rel="stylesheet" href="/css/styles.css" />
+    </head>
+    <body>
+    <div class="container">
+        <header>
+        <h1>Table Tennis Ranking Calculator</h1>
+        </header>
+        <hr />
+    
+    <div class="calc-box">
+        <h2>Calculator</h2>
+        <div class="half" id="inp">
+        <h3>Results</h3>
+        <hr class="sep">
+            <form method="POST" id="calcForm">
+                <h4>Points</h4>
+                
+                <label  for="p1Points">Player One's Points</label>
+                <input  asp-for="p1Points" type="range" min="100" max="3000"/>
+                <p style="display:inline;" id="p1p-label">100</p>
+                <br />
+                <label  for="p2Points">Player Two's Points</label>
+                <input  asp-for="p2Points" type="range" min="100" max="3000"/>
+                <p style="display:inline;" id="p2p-label">100</p>
+
+                <hr class="sep">
+                <h4>Who Won?</h4>
+                <label for="player-one-win">Player One</label>
+                <input id="player-one-win" asp-for="win1" value="true" type="radio"/>
+                <label for="player-two-win">Player Two</label>
+                <input id="player-two-win" asp-for="win1" value="false" type="radio"/>
+                
+                <hr class="sep">
+                <h4>Weighting</h4>
+                
+                <!-- add a div which appears on click to explain weightings -->
+                <select asp-for="weight">
+                    <option value="0.75">0.75x</option>
+                    <option value="1">1x</option>
+                    <option value="1.25">1.25x</option>
+                    <option value="1.5">1.5x</option>
+                    <option value="1.75">1.75x</option>
+                    <option value="2">2x</option>
+                    <option value="2.25">2.25x</option>
+                    <option value="2.5">2.5x</option>
+                    <option value="2.75">2.75x</option>
+                    <option value="3">3x</option>
+                </select>
+            </form>
+        </div>
+        <div class="half" id="out">
+            <h3>
+                New Points
+            </h3>
+            <hr class="sep">
+                <h4>Player One</h4>
+                <h5 id="p1-points-out">@Model.newp1</h5>
+                <hr />
+                <h4>Player Two</h4>
+                <h5 id="p2-points-out">@Model.newp2</h5>
+        </div>
+    </div>
+    </div>
+    <script>
+        const p1slider = document.getElementById("p1Points");
+        const labelP1 = document.getElementById("p1p-label");
+        labelP1.textContent = p1slider.value;
+
+        p1slider.addEventListener("input" ,function () {
+            labelP1.textContent = this.value;
+        });
+        const p2slider = document.getElementById("p2Points");
+        const labelP2 = document.getElementById("p2p-label");
+        labelP2.textContent = p2slider.value;
+
+        p2slider.addEventListener("input" ,function () {
+            labelP2.textContent = this.value;
+        });
+    </script>
+    <script>
+document.getElementById("calcForm")
+    .addEventListener("input", function () {
+
+        fetch("", {
+            method: "POST",
+            body: new FormData(this)
+        })
+        .then(response => response.text())
+        .then(html => {
+    const parser = new DOMParser();
+    const doc = parser.parseFromString(html, "text/html");
+
+    const newOutput = doc.querySelector("#out");
+    document.querySelector("#out").innerHTML = newOutput.innerHTML;
+});
+
+
+});
+</script>
+
+    </body>
+</html>
+

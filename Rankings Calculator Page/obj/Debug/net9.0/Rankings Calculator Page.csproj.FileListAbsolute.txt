@@ -95,3 +95,4 @@
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/ref/Rankings Calculator Page.dll
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/9lxnle79tl-pq8osalt7v.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/xxsuepp42o-ahv7isbhok.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/r0ksbc7n77-alysgqejxv.gz
