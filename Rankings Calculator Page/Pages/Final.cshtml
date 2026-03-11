@@ -1,0 +1,171 @@
+@page
+@model FinalModel
+@{
+    ViewData["Title"] = "Final Details page";
+}
+@{
+    Layout = null;
+}
+
+<html>
+    <head>
+        <title>Table Tennis England Rankings Calculator</title>
+        <link rel="stylesheet" href="/css/points.css" /> 
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/choices.js/public/assets/styles/choices.min.css" />
+        <script src="https://cdn.jsdelivr.net/npm/choices.js/public/assets/scripts/choices.min.js"></script> 
+        <script 
+  src="https://cdn.jsdelivr.net/npm/toolcool-range-slider/dist/plugins/tcrs-moving-tooltip.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/toolcool-range-slider@4.0.28/dist/toolcool-range-slider.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/toolcool-range-slider@4.0.28/dist/plugins/tcrs-pointer-shapes.min.css">   
+    </head>
+    <body>
+        <div class="container">
+        <header>
+        <h1>Table Tennis Ranking Calculator</h1>
+        </header>
+        <hr />
+        <div class="content">
+            <h2>Points</h2>
+            <p><i>Input the number of points each player has (and who won)</p>
+            <p style="margin-top:-20;">Data is as of the 11th of March 2026</i></p>
+            <hr class="sep">
+            <div class="player">
+                <h3>Select A Player</h3>
+                <p><i>or <a href="#manual">type in points manually</a></i></p>
+
+
+                <form method="GET" action="/final">
+
+                    <label for="p1Sel">Pick the first player (points will auto-select)</label>
+                    <select id="p1Sel" name="p1Points">
+                        <option value="" selected>Nobody (default)</option>
+                    </select>
+
+                    <label for="p2Sel">Pick the second player (points will auto-select)</label>
+                    <select id="p2Sel" name="p2Points">
+                        <option value="" selected>Nobody (default)</option>
+                    </select>
+                    
+                    <input type="submit" class="next" style="margin-top: 0px;" value="Continue">
+                </form>
+
+            </div>
+        </div>
+        <div id="manual" >
+        <div class="content" id="box">
+                <form method="GET" action="/final">
+                <h3>Enter Points Manually</h3>
+                <p><i>See the possibilities or use more updated data</i></p>
+                <hr class="sep">
+                <label for="p1Points">Player One's Points</label>
+                <div class="slider">
+                <tc-range-slider
+                id="p1Slider"
+                min="100"
+                max="3500"
+                step="1"
+                value="100" 
+                slider-width="60vw"
+                slider-bg="rgb(203, 244, 255)"
+                slider-bg-fill="rgb(241, 147, 103)"
+                pointer-bg="rgb(74, 66, 64)"
+                moving-tooltip="true"
+                moving-tooltip-width="50"
+                ></tc-range-slider>
+                </div>
+                <input type="hidden" id="p1Points" name="p1Points">
+
+
+                <label for="p2Points">Player Two's Points</label>
+                <div class="slider">
+                <tc-range-slider
+                id="p2Slider"
+                min="100"
+                max="3500"
+                step="1"
+                value="100" 
+                slider-width="60vw"
+                slider-bg="rgb(203, 244, 255)"
+                slider-bg-fill="rgb(241, 147, 103)"
+                pointer-bg="rgb(74, 66, 64)"
+                moving-tooltip="true"
+                moving-tooltip-width="50"
+                ></tc-range-slider>
+                </div>
+                <input type="hidden" id="p2Points" name="p2Points">
+
+
+                <script>
+                    const slid = document.getElementById("p1Slider");
+                    const hid = document.getElementById("p1Points");
+                    slid.addEventListener("change", e => {
+                        hid.value = e.detail.value;
+                    });
+                </script>
+                <script>
+                    const slid2 = document.getElementById("p2Slider");
+                    const hid2 = document.getElementById("p2Points");
+                    slid2.addEventListener("change", e2 => {
+                        hid2.value = e2.detail.value;
+                    });
+                </script>
+                <input type="submit" class="next" value="Continue">
+                </form>
+        </div>
+        </div>
+        </div>
+        <script>
+        async function loadPlayers() {
+            const response = await fetch("/data/everyone.json");
+            const players = await response.json();
+            players.sort((a, b) => b.Points - a.Points);
+            const p1 = document.getElementById("p1Sel");
+            const p2 = document.getElementById("p2Sel");
+
+            players.forEach(player => {
+                const option = document.createElement("option");
+                option.value = player.Points;
+                option.textContent = player.Name + " (" + player.Points + ")";
+                p1.appendChild(option); 
+
+                const opp2 = document.createElement("option");
+                opp2.value = player.Points;
+                opp2.textContent = player.Name + " (" + player.Points + ")";
+                p2.appendChild(opp2);
+            });
+
+            const selp1 = new Choices(p1, {
+                searchEnabled: true,
+                itemSelectText: "",
+                shouldSort: false
+            })
+            
+            const selp2 = new Choices(p2, {
+                searchEnabled: true,
+                itemSelectText: "",
+                shouldSort: false
+            });
+
+            selp1.containerOuter.element.style.width = "70%";
+            selp1.containerOuter.element.style.margin = " 30px auto";
+            selp1.containerOuter.element.style.border = " 1px grey solid";
+            selp1.containerInner.element.style.maxWidth = "98.7%";
+            selp2.containerOuter.element.style.width = "70%";
+            selp2.containerOuter.element.style.margin = " 30px auto";
+            selp2.containerOuter.element.style.border = " 1px grey solid";
+            selp2.containerInner.element.style.maxWidth = "98.7%";
+            }
+        loadPlayers();
+
+        document.addEventListener("DOMContentLoaded", () => {
+            const popup = document.getElementById("manual")
+            popup.addEventListener("click", (e) => {
+                if (e.target === popup){
+                window.location.hash = '';
+            }
+        });
+        })
+        
+        </script>
+    </body>
+</html>
