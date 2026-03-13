@@ -34,21 +34,22 @@
                 <p><i>or <a href="#manual">type in points manually</a></i></p>
 
 
-                <form method="GET" action="/final">
+                <form method="GET" action="/final" id="choice-form">
 
                     <label for="p1Sel">Pick the first player (points will auto-select)</label>
                     <select id="p1Sel" name="p1Points">
                         <option value="" selected>Nobody (default)</option>
                     </select>
+                    <input name="p1Name" type="hidden" id="p1Name" />
 
                     <label for="p2Sel">Pick the second player (points will auto-select)</label>
                     <select id="p2Sel" name="p2Points">
                         <option value="" selected>Nobody (default)</option>
                     </select>
+                    <input name="p2Name" type="hidden" id="p2Name" />
                     
                     <input type="submit" class="next" style="margin-top: 0px;" value="Continue">
                 </form>
-
             </div>
         </div>
         <div id="manual" >
@@ -154,6 +155,19 @@
             selp2.containerOuter.element.style.margin = " 30px auto";
             selp2.containerOuter.element.style.border = " 1px grey solid";
             selp2.containerInner.element.style.maxWidth = "98.7%";
+            const p1Selector = document.getElementById("p1Sel");
+            const p2Selector = document.getElementById("p2Sel");
+            const p1Hid = document.getElementById("p1Name");
+            const p2Hid = document.getElementById("p2Name");
+            const form = document.getElementById("choice-form");
+            form.addEventListener("submit", () => {
+                const data1 = selp1.getValue();
+                const data2 = selp2.getValue();
+
+    
+                p1Hid.value = data1 ? data1.label : "Nobody (default)";
+                p2Hid.value = data2 ? data2.label : "Nobody (default)";
+            });
             }
         loadPlayers();
 

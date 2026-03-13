@@ -15,108 +15,80 @@
     </head>
     <body>
         <div class="container">
-        <header>
-        <h1>Table Tennis Ranking Calculator</h1>
-        </header>
-        <hr />
-        <div class="content">
-            <h2>Last Details</h2>
-            <p><i>All that's needed to finish the calculations</i></p>
-            <hr class="sep">
-                
-                <form method="GET" action="/results">
+            <header>
+                <h1>Table Tennis Ranking Calculator</h1>
+            </header>
+            <hr />
+            <div class="content">
+                <h2>The Results</h2>
+                <p><i>Drumroll please...</i></p>
+                <hr class="sep">
+                <div class="half-card content" id="p1Area">
+                    <h3 class="player">@Model.p1Name</h3>
+                    <p class="info">Original Points: @Model.p1Points</p>
+                    <p class="info" id="result1"></p>
+                    <p class="info">Weight: @Model.weight</p>
+                    <h3 class="newPoints" id="new1">Click to reveal</h3>
+                </div>
+                <div class="half-card content" id="p2Area">
+                    <h3 class="player">@Model.p2Name</h3>
+                    <p class="info">Original Points: @Model.p2Points</p>
+                    <p class="info" id="result2"></p>
+                    <p class="info">Weight: @Model.weight</p>
+                    <h3 class="newPoints" id="new2">Click to reveal</h3>
+                </div>
+                <script>
+                    const p1 = document.getElementById("result1");
+                    const p2 = document.getElementById("result2");
+                    if ("@Model.p1Win".toLowerCase() === "false") {
+                        p1.textContent = "Result: Loss";
+                        p2.textContent = "Result: Victory";
+                    }
+                    else {
+                        p2.textContent = "Result: Loss";
+                        p1.textContent = "Result: Victory";
+                    }
 
-                   
-                    <!-- Checkbox from https://getcssscan.com/css-checkboxes-examples -->
-                    <div id="check-wrap">
-                    <div class="checkbox-wrapper-37">
-                        <input type="checkbox" id="check"/>
-                        <label for="check" class="terms-label">
-                        <svg class="checkbox-svg" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <mask id="path-1-inside-1_476_5-37" fill="white">
-                                <rect width="200" height="200" />
-                            </mask>
-                            <rect width="200" height="200" class="checkbox-box" stroke-width="40" mask="url(#path-1-inside-1_476_5-37)"/>
-                            <path class="checkbox-tick" d="M52 111.018L76.9867 136L149 64" stroke-width="15" />
-                        </svg>
-                        <span class="label-text" id="check-result">Player Two Won (click box to switch)</span>
-                        
-                    </label>
-                    </div>
-                    </div>
+                    const p1p = document.getElementById("new1");
+                    const p2p = document.getElementById("new2");
+                    const p1Final = Number(@Model.newP1);
+                    const p2Final = Number(@Model.newP2);
+                    let p1Current = 0;
+                    let p2Current = 0;
+                    const step1 = Math.ceil(p1Final / 60);
+                    const step2 = Math.ceil(p2Final / 60);
+                    const p1Click = document.getElementById("p1Area");
+                    const p2Click = document.getElementById("p2Area");
+                    
+                    p1Click.addEventListener("click", () => {
+                        const intervalp1 = setInterval(() =>  {
+                        p1Current += step1;
+                        if (p1Current >= p1Final) {
+                            p1Current = p1Final;
+                            clearInterval(intervalp1);
+                        }
+                        p1p.textContent = p1Current;
+                    }, 25);
+
+                        p1Click.removeEventListener("click");
+                    });
+                    
+                    p2Click.addEventListener("click", () => {
+                        const intervalp2 = setInterval(() =>  {
+                        p2Current += step2;
                         
 
+                        if (p2Current >= p2Final) {
+                            p2Current = p2Final;
+                            clearInterval(intervalp2);
+                        }
+                        p2p.textContent = p2Current;
+                    }, 25);
+                    });
                     
 
-                    <label for="weights">Pick the type of tournament played (weights will select automatically)</label>
-                    <select id="weights" required>
-                        <option value="" selected>Please Select an Option</option>
-                    </select>
-                    <input type="hidden" name="weight" id="hidWeight" />
-                    <input type="hidden" name="p1Points" id="p1p" />
-                    <input type="hidden" name="p2Points" id="p2p" />
-                    <input type="hidden" name="p1Win" id="who-won"/>
-                    
-                    <script>
-                        const checky = document.getElementById("check");
-                        const out = document.getElementById("check-result")
-                        const hidCheck = document.getElementById("who-won");
-                        document.addEventListener("change", () => {
-                            if (checky.checked) {
-                                out.textContent = "Player One Won";
-                                hidCheck.value = "true";
-                            } else {
-                                out.textContent = "Player Two Won";
-                                hidCheck.value = "false";
-                            }
-                        });
-
-                        const weightSel = document.getElementById("weights");
-                        const hidWeightSel = document.getElementById("hidWeight");
-                        document.addEventListener("change", () => {
-                            hidWeightSel.value = weightSel.value;
-                        });
-
-                        const p1 = document.getElementById("p1p");
-                        const p2 = document.getElementById("p2p");
-                        p1.value = @Model.p1Points;
-                        p2.value = @Model.p2Points;
-                    </script>
-
-                    <input type="submit" class="next" style="margin-top: 0px;" value="Continue">
-                </form>
+                </script>
+            </div>
         </div>
-        </div>
-
-        <script>
-        async function loadWeights() {
-            const response = await fetch("/data/weights.json");
-            const weights = await response.json();
-            const selecty = document.getElementById("weights");
-
-            weights.forEach(weights => {
-                const option = document.createElement("option");
-                option.value = weights.Mult;
-                option.textContent = weights.Tourney;
-                selecty.appendChild(option); 
-            });
-
-            const selWait = new Choices(selecty, {
-                searchEnabled: true,
-                itemSelectText: "",
-                shouldSort: false
-            })
-            
-            selWait.containerOuter.element.style.width = "70%";
-            selWait.containerOuter.element.style.margin = " 30px auto";
-            selWait.containerOuter.element.style.border = " 1px grey solid";
-            selWait.containerInner.element.style.maxWidth = "98.7%";
-            selWait.containerOuter.element.style.width = "70%";
-            selWait.containerOuter.element.style.margin = " 30px auto";
-            selWait.containerOuter.element.style.border = " 1px grey solid";
-            selWait.containerInner.element.style.maxWidth = "98.7%";
-            }
-        loadWeights();        
-        </script>
     </body>
 </html>

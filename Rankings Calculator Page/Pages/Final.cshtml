@@ -41,8 +41,9 @@
                             <rect width="200" height="200" class="checkbox-box" stroke-width="40" mask="url(#path-1-inside-1_476_5-37)"/>
                             <path class="checkbox-tick" d="M52 111.018L76.9867 136L149 64" stroke-width="15" />
                         </svg>
-                        <span class="label-text" id="check-result">Player Two Won (click box to switch)</span>
-                        
+                        <span class="label-text" id="check-result">@Model.p2Name Won (click box to switch)</span>
+                        <input type="hidden" name="p1Name" value="@Model.p1Name" />
+                        <input type="hidden" name="p2Name" value="@Model.p2Name" />
                     </label>
                     </div>
                     </div>
@@ -65,10 +66,10 @@
                         const hidCheck = document.getElementById("who-won");
                         document.addEventListener("change", () => {
                             if (checky.checked) {
-                                out.textContent = "Player One Won";
+                                out.textContent = "@Model.p1Name Won";
                                 hidCheck.value = "true";
                             } else {
-                                out.textContent = "Player Two Won";
+                                out.textContent = "@Model.p2Name Won";
                                 hidCheck.value = "false";
                             }
                         });

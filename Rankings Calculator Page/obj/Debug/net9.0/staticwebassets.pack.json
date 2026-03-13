@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets/css/points.css"
     },
     {
+      "Id": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/results.css",
+      "PackagePath": "staticwebassets/css/results.css"
+    },
+    {
       "Id": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/styles.css",
       "PackagePath": "staticwebassets/css/styles.css"
     },

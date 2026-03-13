@@ -100,3 +100,4 @@
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/91qffs5k79-seia0strkq.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz
 /Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz
+/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/qvn51m0o6s-vmo58istwa.gz

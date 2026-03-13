@@ -55,6 +55,7 @@ body {
     margin-top: 40px;
     border-radius: 15px;
     border: 1px solid salmon;
+    padding-bottom: 50px;
   }
   .next {
     background-color: aliceblue;
@@ -114,53 +115,21 @@ body {
   a:visited {
     color:blue;
   }
-  .checkbox-wrapper-37:hover .checkbox-box {
-    fill: rgb(223, 223, 223);
-  }
-  .checkbox-wrapper-37 .checkbox-box {
-    transition: fill 1s;
-  }
-  .checkbox-wrapper-37 input[type="checkbox"] {
-    display: none;
-  }
 
-  .checkbox-wrapper-37 .terms-label {
-    cursor: pointer;
-    display: flex;
-    align-items: center;
+  .half-card {
+    width: 45%;
+    display: inline-block;
+    border: 2px solid salmon;
+    margin-top: 50px;
+    border-radius: 20px;
+    margin-right: 25px;
   }
-
-  .checkbox-wrapper-37 .terms-label .label-text {
-    margin-left: 50px;
+  .half-card h3 {
+    margin-top: 20px;
+    margin-bottom: 50px;
   }
-
-  .checkbox-wrapper-37 .checkbox-svg {
-    width: 30px;
-    height: 30px;
-  }
-
-  .checkbox-wrapper-37 .checkbox-box {
-    fill: #fff;
-    stroke: #ff7a00;
-    stroke-dasharray: 800;
-    stroke-dashoffset: 800;
-    transition: stroke-dashoffset 0.6s ease-in;
-  }
-
-  .checkbox-wrapper-37 .checkbox-tick {
-    stroke: #ff7a00;
-    stroke-dasharray: 172;
-    stroke-dashoffset: 172;
-    transition: stroke-dashoffset 0.6s ease-in;
-  }
-
-  .checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-box,
-  .checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-tick {
-    stroke-dashoffset: 0;
-  }
-  #check-wrap {
-    display: flex;
-    justify-content: center;
-    margin: 30px;
+  .newPoints {
+    font-size: 5rem;
+    transition: 0.8s;
   }
   

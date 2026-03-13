@@ -7,20 +7,42 @@ public class ResultsModel : PageModel
 {
     public int p1Points { get; set; }
     public int p2Points { get; set;}
+    public string p1Name { get; set; } = "Player One";
+    public string p2Name { get; set; } = "Player Two";
     public bool p1Win { get; set; }
     public double weight { get; set; }
     public int newP1 {get; set;}
     public int newP2 {get; set;}
-    public void OnGet(int p1Points, int p2Points, bool p1Win, double weight)
+    public void OnGet(int p1Points, int p2Points, bool p1Win, double weight, string p1Name, string p2Name)
     {
         this.p1Points = p1Points;
         this.p2Points = p2Points;
         this.p1Win = p1Win;
         this.weight = weight;
+        this.p1Name = "Player One: " + p1Name.Split(" (")[0];
+        this.p2Name = "Player Two: " + p2Name.Split(" (")[0]; ;
+
+        if (p1Name.Split(" (")[0] == "Player One")
+        {
+            this.p1Name = "Player One";
+        }
+        if (p2Name.Split(" (")[0] == "Player Two")
+        {
+            this.p2Name = "Player Two";
+        }
+
+        
+        if (weight < 0.5)
+        {
+            this.weight = 1;
+            weight = 1;
+        }
         
         var results = CalculateNewPoints(p1Points, p2Points, weight, p1Win);
         newP1 = results.n1;
         newP2 = results.n2;
+        Console.WriteLine(newP1.ToString());
+        Console.WriteLine(newP2.ToString());
     }
     public (int n1, int n2) CalculateNewPoints(int p1Points, int p2Points, double weight, bool win1)
     {
