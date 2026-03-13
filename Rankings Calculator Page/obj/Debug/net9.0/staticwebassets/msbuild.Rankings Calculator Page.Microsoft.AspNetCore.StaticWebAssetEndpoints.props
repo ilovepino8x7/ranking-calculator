@@ -1,5 +1,17 @@
 ﻿<Project>
   <ItemGroup>
+    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/css/final.9rsze8gjsc.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\final.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"9rsze8gjsc"},{"Name":"integrity","Value":"sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="},{"Name":"label","Value":"_content/Rankings Calculator Page/css/final.css"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3306"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Mar 2026 07:38:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/css/final.css">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\final.css'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"3306"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\u0022"},{"Name":"Last-Modified","Value":"Thu, 12 Mar 2026 07:38:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/css/home.5pmyxzb441.css">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\css\home.css'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
@@ -47,6 +59,18 @@
       <Selectors><![CDATA[[]]]></Selectors>
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ozacbw52hj"},{"Name":"integrity","Value":"sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="},{"Name":"label","Value":"_content/Rankings Calculator Page/data/everyone.json"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"153530"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Feb 2026 16:44:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/weights.btvnt7bvdc.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\weights.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"btvnt7bvdc"},{"Name":"integrity","Value":"sha256-MdZQq\u002B/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="},{"Name":"label","Value":"_content/Rankings Calculator Page/data/weights.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"2636"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022MdZQq\u002B/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Mar 2026 18:49:08 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/weights.json">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\weights.json'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-MdZQq\u002B/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"2636"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022MdZQq\u002B/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Mar 2026 18:49:08 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/favicon.ico">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\favicon.ico'))</AssetFile>

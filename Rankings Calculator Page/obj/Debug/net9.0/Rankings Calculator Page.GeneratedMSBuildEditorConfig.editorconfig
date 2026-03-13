@@ -24,20 +24,20 @@ build_property.EnableCodeStyleSeverity =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
+[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Final.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvRmluYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/OldIndex.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvT2xkSW5kZXguY3NodG1s
+[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Points.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUG9pbnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Privacy.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUHJpdmFjeS5jc2h0bWw=
+[/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Results.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvUmVzdWx0cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/Pages/Shared/_ValidationScriptsPartial.cshtml]

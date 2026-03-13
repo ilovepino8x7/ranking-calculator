@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "o9KZye8OaLmYLtEfrx1v0WEtOdELgtx9KdvkfE/4JmQ=",
+  "Hash": "hnWQptrKEN6V9exmf1qYICaOJ06IpGKI/rDNwu/ZXEw=",
   "Source": "Rankings Calculator Page",
   "BasePath": "_content/Rankings Calculator Page",
   "Mode": "Default",
@@ -647,6 +647,27 @@
       "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/lib/jquery-validation/dist/additional-methods.js"
     },
     {
+      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz",
+      "SourceId": "Rankings Calculator Page",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Rankings Calculator Page",
+      "RelativePath": "css/final#[.{fingerprint=9rsze8gjsc}]?.css.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/final.css",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "zu5erir82f",
+      "Integrity": "K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/final.css"
+    },
+    {
       "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/dfwgg7kd0v-6pdc2jztkx.gz",
       "SourceId": "Rankings Calculator Page",
       "SourceType": "Discovered",
@@ -750,6 +771,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/everyone.json"
+    },
+    {
+      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz",
+      "SourceId": "Rankings Calculator Page",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/",
+      "BasePath": "_content/Rankings Calculator Page",
+      "RelativePath": "data/weights#[.{fingerprint=btvnt7bvdc}]?.json.gz",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/weights.json",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "Fingerprint": "hz7rh31b09",
+      "Integrity": "Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/weights.json"
     },
     {
       "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/hb03rgxjs4-mlv21k5csn.gz",
@@ -1466,6 +1508,27 @@
       "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/scopedcss/projectbundle/Rankings Calculator Page.bundle.scp.css"
     },
     {
+      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/final.css",
+      "SourceId": "Rankings Calculator Page",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/",
+      "BasePath": "_content/Rankings Calculator Page",
+      "RelativePath": "css/final#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9rsze8gjsc",
+      "Integrity": "VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/final.css"
+    },
+    {
       "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/home.css",
       "SourceId": "Rankings Calculator Page",
       "SourceType": "Discovered",
@@ -1548,6 +1611,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/data/everyone.json"
+    },
+    {
+      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/weights.json",
+      "SourceId": "Rankings Calculator Page",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/",
+      "BasePath": "_content/Rankings Calculator Page",
+      "RelativePath": "data/weights#[.{fingerprint}]?.json",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "btvnt7bvdc",
+      "Integrity": "MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/data/weights.json"
     },
     {
       "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/favicon.ico",
@@ -2854,6 +2938,304 @@
   ],
   "Endpoints": [
     {
+      "Route": "css/final.9rsze8gjsc.css",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000997008973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1002"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9rsze8gjsc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/final.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="
+        }
+      ]
+    },
+    {
+      "Route": "css/final.9rsze8gjsc.css",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/final.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9rsze8gjsc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/final.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="
+        }
+      ]
+    },
+    {
+      "Route": "css/final.9rsze8gjsc.css.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9rsze8gjsc"
+        },
+        {
+          "Name": "label",
+          "Value": "css/final.css.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U="
+        }
+      ]
+    },
+    {
+      "Route": "css/final.css",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000997008973"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1002"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="
+        }
+      ]
+    },
+    {
+      "Route": "css/final.css",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/css/final.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-VSqRx77ZVyl6o9MCfgPtiKH5by0dvGRpj1Gkt2QaNTU="
+        }
+      ]
+    },
+    {
+      "Route": "css/final.css.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/daaa0s0eq2-9rsze8gjsc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1002"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 12 Mar 2026 07:38:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-K0iEToauq1wSmcZXQ7CuX4b7PGkqJOwmOQmfsooVA+U="
+        }
+      ]
+    },
+    {
       "Route": "css/home.5pmyxzb441.css",
       "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/r0ksbc7n77-5pmyxzb441.gz",
       "Selectors": [
@@ -4042,6 +4424,304 @@
         {
           "Name": "integrity",
           "Value": "sha256-n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.btvnt7bvdc.json",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001712328767"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btvnt7bvdc"
+        },
+        {
+          "Name": "label",
+          "Value": "data/weights.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.btvnt7bvdc.json",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/weights.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btvnt7bvdc"
+        },
+        {
+          "Name": "label",
+          "Value": "data/weights.json"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.btvnt7bvdc.json.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "btvnt7bvdc"
+        },
+        {
+          "Name": "label",
+          "Value": "data/weights.json.gz"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.json",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.001712328767"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.json",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/weights.json",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2636"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-MdZQq+/8zFXoymG9KktoL8IfulGmcLpBfn4EVy623JI="
+        }
+      ]
+    },
+    {
+      "Route": "data/weights.json.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/h1z6laxnrj-btvnt7bvdc.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "583"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/json"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Mar 2026 18:49:08 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Lc5mQ1l3KCBb1NNW8uQQhCMst0YkubY1T1KkhkMiZ1A="
         }
       ]
     },

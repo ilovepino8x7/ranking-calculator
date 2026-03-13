@@ -5,5 +5,6 @@ namespace Rankings_Calculator_Page.Pages;
 
 public class PointsModel : PageModel
 {
+    
 
 }

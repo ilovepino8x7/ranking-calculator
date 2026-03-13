@@ -1,0 +1,166 @@
+body {
+    background-color: rgb(10, 4, 48);
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 1px;
+    color: rgb(255, 252, 229);
+    margin: 0;
+    height: 99vh;
+  }
+.container {
+    border-radius: 20px;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 0px;
+  }
+  header {
+    background-color: rgb(31, 17, 121);
+    padding: 20px;
+    margin-top: -15px;
+  }
+  h1 {
+    font-size: 3.14rem;
+  }
+  h2 {
+    font-size: 2.8rem;
+    margin: 25px;
+  }
+  h3 {
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+    margin-top: 40px;
+  }
+  p {
+    font-size: 0.8rem;
+    margin-bottom: 30px;
+  }
+  hr {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+  .sep {
+    border: 1px dashed grey;
+    padding: 0;
+    width: 100%;
+  }
+  .content {
+    background-color: aliceblue;
+    width: 90%;
+    margin: 0 auto;
+    color:rgb(10, 4, 48);
+    padding: 15px;
+    padding-top: 10px;
+    margin-top: 40px;
+    border-radius: 15px;
+    border: 1px solid salmon;
+  }
+  .next {
+    background-color: aliceblue;
+    padding: 60px;
+    border: 2px solid rgb(31, 17, 121);
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 60%;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 1.5rem;
+    border-radius: 20px;
+    transition: 0.8s;
+  }
+  .next:hover {
+    width: 80%;
+    padding: 80px;
+    border: orangered 2px solid;
+    background-color: rgb(31, 17, 121);
+    color: aliceblue;
+    margin-bottom: 1px;
+  }
+  #manual {
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.8);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+  }
+  #manual:target {
+    opacity: 1;
+    pointer-events: auto;
+  }
+  #box h3{
+    margin-top: 15px;
+  }
+  #box {
+    margin-top: 32vh;
+  }
+  .slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+  }
+  label {
+    margin: 30px;
+    display: block;
+  }
+  a:visited {
+    color:blue;
+  }
+  .checkbox-wrapper-37:hover .checkbox-box {
+    fill: rgb(223, 223, 223);
+  }
+  .checkbox-wrapper-37 .checkbox-box {
+    transition: fill 1s;
+  }
+  .checkbox-wrapper-37 input[type="checkbox"] {
+    display: none;
+  }
+
+  .checkbox-wrapper-37 .terms-label {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+  }
+
+  .checkbox-wrapper-37 .terms-label .label-text {
+    margin-left: 50px;
+  }
+
+  .checkbox-wrapper-37 .checkbox-svg {
+    width: 30px;
+    height: 30px;
+  }
+
+  .checkbox-wrapper-37 .checkbox-box {
+    fill: #fff;
+    stroke: #ff7a00;
+    stroke-dasharray: 800;
+    stroke-dashoffset: 800;
+    transition: stroke-dashoffset 0.6s ease-in;
+  }
+
+  .checkbox-wrapper-37 .checkbox-tick {
+    stroke: #ff7a00;
+    stroke-dasharray: 172;
+    stroke-dashoffset: 172;
+    transition: stroke-dashoffset 0.6s ease-in;
+  }
+
+  .checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-box,
+  .checkbox-wrapper-37 input[type="checkbox"]:checked + .terms-label .checkbox-tick {
+    stroke-dashoffset: 0;
+  }
+  #check-wrap {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+  }
+  
