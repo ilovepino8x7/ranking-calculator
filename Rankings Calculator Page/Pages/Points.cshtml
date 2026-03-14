@@ -171,8 +171,8 @@
             const p2Hid = document.getElementById("p2Name");
             const form = document.getElementById("choice-form");
             form.addEventListener("submit", () => {
-                const data1 = selp1.getValue();
-                const data2 = selp2.getValue();
+                const data1 = selp1.getValue(true);
+                const data2 = selp2.getValue(true);
 
     
                 p1Hid.value = data1 ? data1.label : "Nobody (default)";
