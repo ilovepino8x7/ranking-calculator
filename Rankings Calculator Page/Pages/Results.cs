@@ -13,6 +13,8 @@ public class ResultsModel : PageModel
     public double weight { get; set; }
     public int newP1 {get; set;}
     public int newP2 {get; set;}
+    public int p1Change {get; set;}
+    public int p2Change {get; set;}
     public void OnGet(int p1Points, int p2Points, bool p1Win, double weight, string p1Name, string p2Name)
     {
         this.p1Points = p1Points;
@@ -38,11 +40,12 @@ public class ResultsModel : PageModel
             weight = 1;
         }
         
+        
         var results = CalculateNewPoints(p1Points, p2Points, weight, p1Win);
         newP1 = results.n1;
         newP2 = results.n2;
-        Console.WriteLine(newP1.ToString());
-        Console.WriteLine(newP2.ToString());
+        p1Change = newP1 - this.p1Points;
+        p2Change = newP2 - this.p2Points;
     }
     public (int n1, int n2) CalculateNewPoints(int p1Points, int p2Points, double weight, bool win1)
     {

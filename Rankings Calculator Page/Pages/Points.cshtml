@@ -27,7 +27,7 @@
         <div class="content">
             <h2>Points</h2>
             <p><i>Input the number of points each player has (and who won)</p>
-            <p style="margin-top:-20;">Data is as of the 11th of March 2026</i></p>
+            <p style="margin-top:-20;">Data is as of the 14th of March 2026</i></p>
             <hr class="sep">
             <div class="player">
                 <h3>Select A Player</h3>
@@ -117,21 +117,31 @@
         </div>
         <script>
         async function loadPlayers() {
+            // How to update - go to each rankings + ratings list, look for table?data in network tab, copy json, beautify it, paste in, fix issues (and run: sed -i '' -E 's/ \([0-9]+\)//g' everyone.json).
             const response = await fetch("/data/everyone.json");
-            const players = await response.json();
-            players.sort((a, b) => b.Points - a.Points);
+            let players = await response.json();
+            players.sort((a, b) => b.points - a.points);
+            const seen = new Set();
+
+            players = players.filter(player => {
+                if (seen.has(player.name)) {
+                return false; // duplicate -> remove
+            }
+            seen.add(player.name);
+                return true; // keep
+            });
             const p1 = document.getElementById("p1Sel");
             const p2 = document.getElementById("p2Sel");
 
             players.forEach(player => {
                 const option = document.createElement("option");
-                option.value = player.Points;
-                option.textContent = player.Name + " (" + player.Points + ")";
+                option.value = player.points;
+                option.textContent = player.name + " (" + player.points + ")";
                 p1.appendChild(option); 
 
                 const opp2 = document.createElement("option");
-                opp2.value = player.Points;
-                opp2.textContent = player.Name + " (" + player.Points + ")";
+                opp2.value = player.points;
+                opp2.textContent = player.name + " (" + player.points + ")";
                 p2.appendChild(opp2);
             });
 

@@ -63,14 +63,14 @@
     <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/everyone.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\everyone.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"153530"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Feb 2026 16:44:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ\u002BLA153AeSebE="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"5857730"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022RAFFagzH2upA3uKmecV9twzR5IkJrcJ\u002BLA153AeSebE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Mar 2026 09:23:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
-    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/everyone.ozacbw52hj.json">
+    <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/everyone.wxw2e4h21l.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\everyone.json'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
-      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"ozacbw52hj"},{"Name":"integrity","Value":"sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="},{"Name":"label","Value":"_content/Rankings Calculator Page/data/everyone.json"}]]]></EndpointProperties>
-      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"153530"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\u0022"},{"Name":"Last-Modified","Value":"Sat, 21 Feb 2026 16:44:40 GMT"}]]]></ResponseHeaders>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"wxw2e4h21l"},{"Name":"integrity","Value":"sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ\u002BLA153AeSebE="},{"Name":"label","Value":"_content/Rankings Calculator Page/data/everyone.json"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5857730"},{"Name":"Content-Type","Value":"application/json"},{"Name":"ETag","Value":"\u0022RAFFagzH2upA3uKmecV9twzR5IkJrcJ\u002BLA153AeSebE=\u0022"},{"Name":"Last-Modified","Value":"Sat, 14 Mar 2026 09:23:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Rankings Calculator Page/data/weights.btvnt7bvdc.json">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\data\weights.json'))</AssetFile>

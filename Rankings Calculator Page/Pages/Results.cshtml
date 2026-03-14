@@ -29,6 +29,7 @@
                     <p class="info" id="result1"></p>
                     <p class="info">Weight: @Model.weight</p>
                     <h3 class="newPoints" id="new1">Click to reveal</h3>
+                    <p class="info hid" id="p1Hid">Change: @Model.p1Change</p>
                 </div>
                 <div class="half-card content" id="p2Area">
                     <h3 class="player">@Model.p2Name</h3>
@@ -36,6 +37,7 @@
                     <p class="info" id="result2"></p>
                     <p class="info">Weight: @Model.weight</p>
                     <h3 class="newPoints" id="new2">Click to reveal</h3>
+                    <p class="info hid" id="p2Hid">Change: @Model.p2Change</p>
                 </div>
                 <script>
                     const p1 = document.getElementById("result1");
@@ -59,8 +61,11 @@
                     const step2 = Math.ceil(p2Final / 60);
                     const p1Click = document.getElementById("p1Area");
                     const p2Click = document.getElementById("p2Area");
+                    const p1Change = document.getElementById("p1Hid");
+                    const p2Change = document.getElementById("p2Hid");
                     
                     p1Click.addEventListener("click", () => {
+                        p1Change.style.visibility = "visible";
                         const intervalp1 = setInterval(() =>  {
                         p1Current += step1;
                         if (p1Current >= p1Final) {
@@ -74,6 +79,7 @@
                     });
                     
                     p2Click.addEventListener("click", () => {
+                        p2Change.style.visibility = "visible";
                         const intervalp2 = setInterval(() =>  {
                         p2Current += step2;
                         

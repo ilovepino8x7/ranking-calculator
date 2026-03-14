@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "M7wuhMqqeTuDBeCdoLqQdGadM1dVZyetjDBlwvwEeps=",
+  "Hash": "mWfozaL901DTk4HA1kdErUqF9wTFBWXxfQQhDBljBRA=",
   "Source": "Rankings Calculator Page",
   "BasePath": "_content/Rankings Calculator Page",
   "Mode": "Default",
@@ -752,12 +752,12 @@
       "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-ozacbw52hj.gz",
+      "Identity": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-wxw2e4h21l.gz",
       "SourceId": "Rankings Calculator Page",
       "SourceType": "Discovered",
       "ContentRoot": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Rankings Calculator Page",
-      "RelativePath": "data/everyone#[.{fingerprint=ozacbw52hj}]?.json.gz",
+      "RelativePath": "data/everyone#[.{fingerprint=wxw2e4h21l}]?.json.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -766,8 +766,8 @@
       "RelatedAsset": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/everyone.json",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "9y9occ9cix",
-      "Integrity": "n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE=",
+      "Fingerprint": "tjgbcc590x",
+      "Integrity": "ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/everyone.json"
@@ -1648,8 +1648,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "ozacbw52hj",
-      "Integrity": "XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=",
+      "Fingerprint": "wxw2e4h21l",
+      "Integrity": "RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/data/everyone.json"
@@ -4471,12 +4471,12 @@
     },
     {
       "Route": "data/everyone.json",
-      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-ozacbw52hj.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-wxw2e4h21l.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026801747"
+          "Quality": "0.000005858540"
         }
       ],
       "ResponseHeaders": [
@@ -4486,15 +4486,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37310"
+          "Value": "170690"
         },
         {
           "Name": "ETag",
-          "Value": "\"n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE=\""
+          "Value": "\"ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4514,13 +4514,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\""
+          "Value": "W/\"RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="
+          "Value": "sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE="
         }
       ]
     },
@@ -4535,7 +4535,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "153530"
+          "Value": "5857730"
         },
         {
           "Name": "Content-Type",
@@ -4543,11 +4543,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\""
+          "Value": "\"RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4557,13 +4557,13 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="
+          "Value": "sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE="
         }
       ]
     },
     {
       "Route": "data/everyone.json.gz",
-      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-ozacbw52hj.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-wxw2e4h21l.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4572,7 +4572,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37310"
+          "Value": "170690"
         },
         {
           "Name": "Content-Type",
@@ -4580,11 +4580,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE=\""
+          "Value": "\"ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4602,18 +4602,18 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE="
+          "Value": "sha256-ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI="
         }
       ]
     },
     {
-      "Route": "data/everyone.ozacbw52hj.json",
-      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-ozacbw52hj.gz",
+      "Route": "data/everyone.wxw2e4h21l.json",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-wxw2e4h21l.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000026801747"
+          "Quality": "0.000005858540"
         }
       ],
       "ResponseHeaders": [
@@ -4623,15 +4623,15 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37310"
+          "Value": "170690"
         },
         {
           "Name": "ETag",
-          "Value": "\"n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE=\""
+          "Value": "\"ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4651,13 +4651,13 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\""
+          "Value": "W/\"RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE=\""
         }
       ],
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ozacbw52hj"
+          "Value": "wxw2e4h21l"
         },
         {
           "Name": "label",
@@ -4665,12 +4665,12 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="
+          "Value": "sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE="
         }
       ]
     },
     {
-      "Route": "data/everyone.ozacbw52hj.json",
+      "Route": "data/everyone.wxw2e4h21l.json",
       "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/wwwroot/data/everyone.json",
       "Selectors": [],
       "ResponseHeaders": [
@@ -4680,7 +4680,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "153530"
+          "Value": "5857730"
         },
         {
           "Name": "Content-Type",
@@ -4688,11 +4688,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs=\""
+          "Value": "\"RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4702,7 +4702,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ozacbw52hj"
+          "Value": "wxw2e4h21l"
         },
         {
           "Name": "label",
@@ -4710,13 +4710,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-XALU/yIpQmSBdzI6rnSfqsxNV8DZuvtxGff9FCQnccs="
+          "Value": "sha256-RAFFagzH2upA3uKmecV9twzR5IkJrcJ+LA153AeSebE="
         }
       ]
     },
     {
-      "Route": "data/everyone.ozacbw52hj.json.gz",
-      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-ozacbw52hj.gz",
+      "Route": "data/everyone.wxw2e4h21l.json.gz",
+      "AssetFile": "/Users/Tedski/Documents/GitHub/ranking-calculator/Rankings Calculator Page/obj/Debug/net9.0/compressed/ftzspxq5gp-wxw2e4h21l.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -4725,7 +4725,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "37310"
+          "Value": "170690"
         },
         {
           "Name": "Content-Type",
@@ -4733,11 +4733,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE=\""
+          "Value": "\"ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sat, 21 Feb 2026 16:44:40 GMT"
+          "Value": "Sat, 14 Mar 2026 09:23:33 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -4755,7 +4755,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "ozacbw52hj"
+          "Value": "wxw2e4h21l"
         },
         {
           "Name": "label",
@@ -4763,7 +4763,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-n+uCyKXgh9DDgEOsDtKSGrHWN9B/YbKbk9MeAhXCmQE="
+          "Value": "sha256-ifQKGc2oOnA2/Mln2+Drw/849F1w2BoKGNiHagWakGI="
         }
       ]
     },
