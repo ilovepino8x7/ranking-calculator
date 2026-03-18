@@ -18,7 +18,7 @@ This website was made in ASP.net to help table tennis players (like myself) in E
 
 
 
-## 🚀 Usage (<a href="rankings.teddyhunt.dev">On-Line Demo</a>)
+## 🚀 Usage (<a href="https://rankings.teddyhunt.dev" target="_blank">On-Line Demo</a>)
 
 
 ### ⬇️ Installation
